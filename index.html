@@ -987,9 +987,9 @@
           <path id="heroFlightPath" d="M 30 74 Q 280 -12 530 74" stroke="url(#arcGrad)" stroke-width="2" stroke-dasharray="6 7" stroke-linecap="round" />
           <circle cx="30" cy="74" r="4.5" fill="#c084fc" />
           <circle cx="530" cy="74" r="4.5" fill="#f6d379" />
-          <!-- Animated Airplane -->
+          <!-- Animated Airplane (facing forward along +x) -->
           <g fill="#fef6d8">
-            <path d="M-10,-2 L4,-2 L10,-10 L13,-10 L9,-2 L16,-2 L19,-6 L21,-6 L19,0 L21,6 L19,6 L16,2 L9,2 L13,10 L10,10 L4,2 L-10,2 C-12,2 -13,1 -13,0 C-13,-1 -12,-2 -10,-2 Z">
+            <path d="M14,0 C14,-1.4 12.2,-2.2 9.5,-2.2 L3,-2.2 L-4,-11 L-7.5,-11 L-2.5,-2.2 L-9.5,-2.2 L-13,-6.5 L-15.5,-6.5 L-13,0 L-15.5,6.5 L-13,6.5 L-9.5,2.2 L-2.5,2.2 L-7.5,11 L-4,11 L3,2.2 L9.5,2.2 C12.2,2.2 14,1.4 14,0 Z">
               <animateMotion dur="7s" repeatCount="indefinite" rotate="auto">
                 <mpath href="#heroFlightPath" />
               </animateMotion>
@@ -1041,7 +1041,7 @@
             </div>
             <div class="bp-flight-line" aria-hidden="true">
               <span></span>
-              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" style="transform: rotate(90deg);">
                 <path d="M21 16v-2l-8-5V3.5c0-.83-.67-1.5-1.5-1.5S10 2.67 10 3.5V9l-8 5v2l8-2.5V19l-2 1.5V22l3.5-1 3.5 1v-1.5L13 19v-5.5l8 2.5z" />
               </svg>
               <span></span>
